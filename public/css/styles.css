@@ -118,6 +118,11 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("bg.png");
+
   }
   
   .chat__messages {
@@ -169,7 +174,7 @@
   }
   
   .message__title span {
-    color: #999;
+    color: #272525;
   }
   
   @media (max-width: 600px) {
